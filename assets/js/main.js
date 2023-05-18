@@ -2,9 +2,9 @@ AOS.init();
 
 new Typed("#typed", {
     strings: [
-        "Food Make Happiness",
-        "Fresh Ingredients Every Day",
-        "HANDMADE WITH AN EXTRA PINCH OF LOVE",
+        "Unleash your visual potential",
+        "Experience the art of editing",
+        "Discover the power of creativity",
     ],
     typeSpeed: 100,
     delaySpeed: 300,
