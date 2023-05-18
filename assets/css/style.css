@@ -413,19 +413,6 @@ body {
     cursor: pointer;
 }
 
-@media screen and (max-width: 768px) {
-    .area-gallery img {
-      width: calc(50% - 40px);
-    }
-  }
-  
-  @media screen and (max-width: 480px) {
-    .area-gallery img {
-      width: 100%;
-      margin: 20px 0;
-    }
-}
-
 .area-gallery img:hover {
     transform: scale(1.05);
     transition: 0.5s ease-in-out;
