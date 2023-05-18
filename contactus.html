@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Photo Magic</title>
+  <meta content="Transform your photos and videos into captivating masterpieces with Photo Magic's studio expertise." name="description">
+  <meta content="Photo Magic" name="keywords">
+
+  <!-- Favicons -->
+  <link rel="shortcut icon" href="https://telegra.ph/file/74d502b6afa44b2db029b.png" type="image/x-icon" />
+
+  <!-- Vendor CSS Files -->
+  <link rel="stylesheet" href="assets/vendor/aos.css/aos.css" />
+  <link rel="stylesheet" href="assets/vendor/flickity.css/flickity.css" />
+
+  <!-- Template Main CSS File -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  
+</head>
+
+<body>
+    <!-- ======= Header ======= -->
+    <div class="nav">
+        <a data-scroll data-easing="easeInQuint" href="#beranda" data-aos="fade-down" data-aos-duration="400"
+          data-aos-delay="50">Home</a>
+        <a data-scroll data-easing="easeInQuint" href="#tentang" data-aos="fade-down" data-aos-duration="400"
+          data-aos-delay="100">Gallery</a>
+        <img src="assets/img/mainlogo.png" alt="" data-aos="fade-down" data-aos-duration="1500">
+        <a data-scroll data-easing="easeInQuint" href="#footer-2" data-aos="fade-down" data-aos-duration="400"
+          data-aos-delay="150">Operational Time</a>
+        <a data-scroll data-easing="easeInQuint" href="#partnership" data-aos="fade-down" data-aos-duration="400"
+          data-aos-delay="100">Contact Us</a>
+        <img src="assets/img/menu.png" alt="" id="btn-nav" data-aos="fade-down" data-aos-duration="700" data-aos-delay="50">
+      </div>
+
+<!-- ======= Contact us Start ======= -->
+<div class="form-box">
+    <div class="sec-title">
+        <h2>Write Us a Message <span class="dot">.</span></h2>
+    </div>
+    <div class="default-form">
+        <form action="https://phyxle.com/contact" method="POST" id="contact-form">
+            <input type="hidden" name="recaptcha-token" id="recaptcha-token">
+            <div class="row clearfix">
+                <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                    <div class="field-inner">
+                        <input type="text" name="name" placeholder="Enter your name" maxlength="191" required>
+                    </div>
+                </div>
+                <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                    <div class="field-inner">
+                        <input type="email" name="email" placeholder="Enter your email address" maxlength="191" required>
+                    </div>
+                </div>
+                <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                    <div class="field-inner">
+                        <input type="tel" name="phone" placeholder="Enter your phone number" minlength="10" maxlength="15" required>
+                    </div>
+                </div>
+                <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                    <div class="field-inner">
+                        <input type="text" name="subject" placeholder="Enter your subject" maxlength="191" required>
+                    </div>
+                </div>
+                <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                    <div class="field-inner">
+                        <textarea name="message" placeholder="Enter your message" maxlength="1000" required></textarea>
+                    </div>
+                </div>
+                <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                    <button class="theme-btn btn-style-one">
+                        <i class="btn-curve"></i>
+                        <span class="btn-title">Send Message</span>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+</section>
+<script src="../www.google.com/recaptcha/api2a5c.js?render=6LcTzgoiAAAAAGEgWpkF5z1OH78_i6qRTBZRiXoh"></script>
+<script>
+const contactForm = document.getElementById("contact-form");
+contactForm.addEventListener("submit", (event) => {
+event.preventDefault();
+
+grecaptcha.ready(() => {
+    grecaptcha.execute("6LcTzgoiAAAAAGEgWpkF5z1OH78_i6qRTBZRiXoh", {
+        action: "submit"
+    }).then((token) => {
+        const recaptchaToken = document.getElementById("recaptcha-token");
+        recaptchaToken.value = token;
+
+        contactForm.submit();
+    });
+});
+});
+</script>
+  <!-- ======= Contact us End ======= -->
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery.js/jquery.js"></script>
+  <script src="assets/vendor/type.js/type.js"></script>
+  <script src="assets/vendor/aos.js/aos.js"></script>
+  <script src="assets/vendor/flickity.js/flickity.pkgd.min.js"></script>
+  <script src="assets/vendor/smoth-scroll.js/smoth-scroll.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+  <!-- ======= Footer Start ======= -->
+  <div class="footer">
+    <div class="footer-1">
+      <div class="footer-logo" data-aos="fade-down" data-aos-duration="800">
+        <img src="assets/img/logo.png" alt="">
+        <h1>Photo Magic</h1>
+      </div>
+      <p data-aos="fade-up" data-aos-duration="800">Where ordinary moments become<br> Extraordinary memories through editing. </p>
+      <div class="sosial-media">
+        <a href="">
+          <img src="assets/img/facebook.png" alt="" data-aos="zoom-in-up" data-aos-duration="800" data-aos-delay="200">
+        </a>
+        <a href="https://www.instagram.com/msn.production/">
+          <img src="assets/img/instagram.png" alt="" data-aos="zoom-in-up" data-aos-duration="800" data-aos-delay="250">
+        </a>
+        <a href="">
+          <img src="assets/img/twitter.png" alt="" data-aos="zoom-in-up" data-aos-duration="800" data-aos-delay="300">
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-2">
+      <h1 data-aos="fade-down" data-aos-duration="800" data-aos-delay="200">Contact</h1>
+      <a href="" data-aos="fade-up" data-aos-duration="800" data-aos-delay="250">+62 821 2566 4554</a>
+      <a href="" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">info@PhotoMagic.com</a>
+    </div>
+
+    <div class="footer-3">
+      <h1 data-aos="fade-down" data-aos-duration="800" data-aos-delay="300">Operational Time</h1>
+      <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="350">Mon - Wed 05 Am - 09 Pm</p>
+      <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">Thu - Sat 05 Am - 08 Pm</p>
+      <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="450">Sun 04 Am - 08 Pm</p>
+    </div>
+
+  </div>
+  <footer>
+    <h1>&copy; Copyright 2023, <a href=""> Photo Magic.</a> All Rights Reserved</h1>
+  </footer>
+  <!-- ======= Footer End ======= -->
+</html>
