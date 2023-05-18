@@ -39,17 +39,67 @@
       </div>
 
 <!-- ======= Contact us Start ======= -->
-<div class="gallery container">
-    <h1 class="judul">Galery</h1>
-    <div class="area-gallery" id="content">
-      <img src="assets/img/toko.jpg" alt="">
-      <img src="assets/img/toko2.jpg" alt="">
-      <img src="assets/img/toko3.jpg" alt="">
-      <img src="assets/img/toko1.jpg" alt="">
-      <img src="assets/img/gallery1.jpg" alt="">
-      <img src="assets/img/gallery2.jpg" alt="">
+<head>
+    <style>
+      /* Styling for the form */
+      .contact-form {
+        max-width: 400px;
+        margin: 0 auto;
+      }
+      
+      .form-group {
+        margin-bottom: 20px;
+      }
+      
+      .form-group label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+      
+      .form-group input, .form-group textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+      }
+      
+      .submit-button {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        border: none;
+        background-color: #4CAF50;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 4px;
+      }
+      
+      .submit-button:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="contact-form">
+      <h2>Contact Us</h2>
+      <form action="#" method="post">
+        <div class="form-group">
+          <label for="first-name">First Name:</label>
+          <input type="text" id="first-name" name="first-name" required>
+        </div>
+        <div class="form-group">
+          <label for="last-name">Last Name:</label>
+          <input type="text" id="last-name" name="last-name" required>
+        </div>
+        <div class="form-group">
+          <label for="description">Description:</label>
+          <textarea id="description" name="description" rows="5" required></textarea>
+        </div>
+        <input type="submit" value="Submit" class="submit-button">
+      </form>
     </div>
-  </div>
   <!-- ======= Contact us End ======= -->
 
   <!-- Vendor JS Files -->
